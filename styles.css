@@ -9,7 +9,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  
+
 }
 
 .navbar {
@@ -357,7 +357,7 @@ body {
   display: flex;
   justify-content: center;
   list-style: none;
-  
+
 }
 
 .socia i {
