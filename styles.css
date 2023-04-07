@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=InaiMathi&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  padding: 20px 150px;
+}
+
+.container-fluid .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.navbar-light .navbar-toggler {
+  color: #fff;
+}
+
+.navbar-light .navbar-toggler-icon {
+  font-size: 28px;
+}
+
+#navbarNav .navbar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#navbarNav .navbar-nav {
+  padding-left: 850px;
+}
+
+.desktop-view {
+  background-color: #1c1a19;
+  height: 750px;
+}
+
+#info {
+  display: flex;
+}
+
+.intro {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-left: 80px;
+  margin-top: 180px;
+  transition: all 0.5s ease-in;
+  animation: spin 1s linear 1;
+}
+
+.skill {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  margin-left: 80px;
+  animation: color-change 2s infinite alternate;
+}
+
+.bio {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin-left: 80px;
+  animation: fade-in 0.8s alternate;
+}
+
+.socials {
+  list-style-type: none;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.socials i {
+  color: #fff;
+}
+
+.social-icons {
+  order: -1;
+  margin-top: 250px;
+  margin-left: 10px;
+}
+
+#first-page-deco-img {
+  background-image: url('images/Illustration-header@2x.png');
+  background-repeat: no-repeat;
+  height: 768px;
+  margin-top: -35%;
+  background-position: right;
+  background-size: 39%;
+}
+
+.recent-works {
+  padding: 150px 140px 24px 140px;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+}
+
+.hr {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 0.75fr;
+  margin-top: 80px;
+}
+
+.recent-works h1 {
+  color: #1c1a19;
+  font-family: 'crete Round', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.multi {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #091e42;
+  font-weight: 400;
+}
+
+.multi-text {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #091e42;
+}
+
+.gymnast {
+  background-image: url('images/gymnast.png');
+  background-repeat: no-repeat;
+  height: 448px;
+  transition: transform 0.3s ease-out;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin-top: 50px;
+  width: 369px;
+  height: 435px;
+}
+
+.card-title {
+  margin-top: 160px;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+#title {
+  margin-top: 200px;
+}
+
+.card-text {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+}
+
+.btns ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.btn-outline-success {
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #091e42;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #8993a4;
+  border-radius: none;
+  margin-inline: 4px;
+  margin-left: 1px;
+}
+
+.btn-primary {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  padding: 10px 12px 10px 12px;
+  background-color: rgba(255, 255, 255, 0.24);
+  border: none;
+  margin-inline: 10px;
+  margin-left: -1px;
+}
+
+#secondary {
+  margin-top: 214px;
+  width: 367px;
+  margin-left: -16px;
+}
+
+.btn-secondary {
+  padding: 10px 12px 10px 12px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #fff;
+  background-color: #ff6b00;
+  border: none;
+}
+
+#resume {
+  margin-top: -190px;
+}
+
+#whitebg,
+#bg2,
+#bg3,
+#bg4,
+#bg5,
+#bg6 {
+  background-image: url('images/whitebg.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 435px;
+
+}
+
+#bg2 {
+  background-image: url('images/bg2.png');
+}
+
+#bg3 {
+  background-image: url('images/bg3.png');
+}
+
+#bg4 {
+  background-image: url('images/bg4.png');
+}
+
+#bg5 {
+  background-image: url('images/bg5.png');
+}
+
+#bg6 {
+  background-image: url('images/bg6.png');
+}
+
+.grider {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about {
+  margin-top: 130px;
+  padding: 130px 142px 130px 142px;
+  height: 1195px;
+  background-color: #262626;
+}
+
+.about h1 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  color: #ff6b00;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.about p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #f4f5f7;
+  margin-bottom: 40px;
+  line-height: 32px;
+}
+
+.group {
+  background-image: url('images/Group.png');
+  background-repeat: no-repeat;
+  height: 353px;
+  background-position: right;
+  margin-right: -150px;
+}
+
+.hor {
+  color: #fff;
+  margin-top: 140px;
+}
+
+.stacks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+}
+
+.language,
+.Skills,
+.framework {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.lan,
+.frame,
+.Skill {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 42.67px;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 0.75fr 1fr;
+  padding: 130px 135px 130px 135px;
+}
+
+.contact-me {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #262626;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  justify-content: left;
+}
+
+.col,
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.socia i {
+  margin-inline: 10px;
+  font-size: 25px;
+  color: #505f79;
+}
