@@ -4,21 +4,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=InaiMathi&display=swap');
 
-body {
+ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
 
-}
+} 
 
-.navbar {
+ .navbar {
   position: fixed;
   z-index: 9999;
   padding: 20px 150px;
-}
+} 
 
-.container-fluid .navbar-brand {
+ .container-fluid .navbar-brand {
   color: #fff;
   font-size: 25px;
   font-weight: 700;
