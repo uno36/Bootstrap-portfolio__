@@ -20,7 +20,7 @@ body {
 
 .container-fluid .navbar-brand {
   color: #fff;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 700;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -36,14 +36,20 @@ body {
 #navbarNav .navbar-nav .nav-link {
   color: #fff;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#navbarNav .navbar-nav .nav-link:hover {
+  color: #ff6b00;
+  transform: scale(1.2);
 }
 
 #navbarNav .navbar-nav {
   padding-left: 850px;
 }
+
 
 .desktop-view {
   background-color: #1c1a19;
@@ -60,7 +66,7 @@ body {
   font-size: 72px;
   color: #ff6b00;
   margin-left: 80px;
-  margin-top: 180px;
+  margin-top: 230px;
   transition: all 0.5s ease-in;
   animation: spin 1s linear 1;
 }
@@ -86,7 +92,12 @@ body {
 .socials {
   list-style-type: none;
   padding: 5px;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+.socials i:hover {
+  color: #ff6b00;
+  transform: scale(1.08);
 }
 
 .socials i {
